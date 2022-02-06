@@ -4,7 +4,6 @@ import com.metelev.bos.spin.R
 import com.metelev.bos.spin.ui.base.BaseFragment
 import kotlinx.android.synthetic.main.fragment_web.*
 
-
 class WebFragment : BaseFragment(R.layout.fragment_web) {
 
     override fun onResume() {
