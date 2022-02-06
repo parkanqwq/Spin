@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/side_nav_bar"
+    tools:context=".ui.WebFragment">
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_100dp" />
+
+    <TextView
+        style="@style/TextText"
+        android:text="@string/what_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/star_games"
+        style="@style/TextTittle"
+        android:layout_margin="@dimen/dimen_100dp"
+        android:text="@string/start_games"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

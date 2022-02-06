@@ -2,4 +2,7 @@
     <string name="app_name">Spin</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="web">https://ecolmoney.online/LrDH7Q41"</string>
+    <string name="what_web">Ссылка ведет на игровой сайт 777</string>
+    <string name="start_games">start games</string>
 </resources>
