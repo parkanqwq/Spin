@@ -39,6 +39,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0'
 
     //api
     implementation 'com.squareup.okhttp3:okhttp:4.6.0'
@@ -49,6 +50,13 @@ dependencies {
     //dagger2
     implementation 'com.google.dagger:dagger:2.24'
     kapt 'com.google.dagger:dagger-compiler:2.24'
+
+    //circle
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+
+    //koin
+    implementation 'io.insert-koin:koin-android:3.0.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.13.2'

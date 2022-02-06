@@ -8,6 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="for_btn_no_action">#FFF3E0</color>
-    <color name="color_gray_bright">#C6C6C6</color>
-    <color name="color_gray">#777777</color>
+    <color name="color_gray_bright">#A6A5A5</color>
+    <color name="color_gray">#474747</color>
 </resources>
